@@ -921,3 +921,93 @@ section{
   height: 300px ;
   width: 100% ;
 }
+
+/* home e notun kore hover effect dilam */
+
+
+.banner .box-container .box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.banner .box-container .box .image img {
+  transition: transform 0.3s ease;
+}
+.banner .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+
+.banner .box-container .box .content h3 {
+  transition: color 0.3s ease;
+}
+
+.banner .box-container .box:hover .content h3 {
+  color: #3c56e7;
+
+
+
+
+/*    ---------------------------- */
+/* Login page part   */ 
+
+
+.login-form {
+  position: absolute;
+  top: 120%;
+  right: 2rem;
+  background: #7a4747;
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  width: 35rem;
+  padding: 2rem;
+  display: none;
+}
+
+.login-form.active {
+  display: block;
+}
+
+.login-form h3 {
+  font-size: 2.2rem;
+  color: #050416;
+  text-transform: uppercase;
+  margin-bottom: .7rem;
+  text-align: center;
+}
+
+.login-form .box {
+  width: 100%;
+  margin: .7rem 0;
+  background: #f7f7f7;
+  border-radius: .5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: #666;
+  text-transform: none;
+}
+
+.login-form .remember {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin: .7rem 0;
+}
+
+.login-form .remember label {
+  font-size: 1.5rem;
+  color: #666;
+  cursor: pointer;
+}
+
+.login-form .btn {
+  width: 100%;
+  text-align: center;
+  margin: 1.5rem 0
+}
+
+.login-form .btn:hover {
+  background: #130f40;
+}
+
+.login-form .h1{
+  text-align: center;
+}
