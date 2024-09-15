@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Login</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f5e0e0;
+    }
+
+    .login-container {
+      display: flex;
+      width: 800px;
+      height: 500px;
+      background-image: url(images/bg.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      border: 2px solid #eaeaea;
+      overflow: hidden;
+      transition: transform 0.5s;
+    }
+
+    
+
+    /* Left Image Section */
+    .login-container .image-section {
+      width: 50%;
+      background: url() no-repeat center center/cover;
+      background-size: contain;
+    }
+
+    /* Right Form Section */
+    .login-container .form-section {
+      width: 50%;
+      padding: 50px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h2 {
+      font-size: 28px;
+      color: #ffff;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 30px;
+      background: #f1f1f1;
+      font-size: 16px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      outline: none;
+      transition: all 0.3s;
+    }
+
+    input[type="text"]:focus, input[type="password"]:focus {
+      background: #eaeaea;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 15px;
+      margin-top: 20px;
+      background: #ff5a3c;
+      border: none;
+      border-radius: 30px;
+      font-size: 18px;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background 0.3s;
+    }
+
+    .login-btn:hover {
+      background: #ff3b1d;
+    }
+
+    .forgot-password {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #ffff;
+      cursor: pointer;
+    }
+
+    .forgot-password:hover {
+      text-decoration: underline;
+    }
+
+    .error-message {
+      color: red;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="image-section"></div>
+    <div class="form-section">
+      <h2>Sign Up</h2>
+      <input type="text" id="username" placeholder="First name" />
+      <input type="text" id="username" placeholder="Last name" />
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <button class="login-btn" onclick="redirectToSignup()">Sign Up</button>
+      <div class="error-message" id="errorMessage"></div>
+    </div>
+  </div>
+
+  <script>
+    function login() {
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+      const errorMessage = document.getElementById('errorMessage');
+    }
+    function redirectToSignup() {
+  window.location.href = 'login.html'; 
+}
+
+  </script>
+
+</body>
+</html>

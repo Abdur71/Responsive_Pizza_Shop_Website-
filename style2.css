@@ -1,0 +1,221 @@
+
+
+.our-chefs .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .our-chefs  .box {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0.5rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+  }
+  
+  .our-chefs  .box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .our-chefs  .box img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .our-chefs  .box-content {
+    padding: 1.5rem;
+  }
+  
+  .our-chefs  .box h3 {
+    font-size: 2rem;
+    color: #130f40;
+    margin-bottom: 1rem;
+  }
+  
+  .our-chefs  .box p {
+    font-size: 1.4rem;
+    color: #c40d0d;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 1240px) {
+    our-chefs  .box-container {
+      max-width: 800px;
+    }
+  }
+  
+  @media (max-width: 850px) {
+    our-chefs  .box-container {
+      max-width: 400px;
+    }
+  }
+  
+  .our-chefs  .box-container .box h3 {
+        display: flex;
+       justify-content: center ;
+  }
+
+  .our-chefs  .box-container .box p{
+    color:#042d75;
+    font-weight: 600;
+    padding : 10px 10px ;
+  }
+
+  @media (max-width: 450px) {
+    our-chefs  .box {
+      width: 100%;
+    }
+  }
+  
+
+
+
+/*         About part   shuru  */ 
+
+
+
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+  
+  .about .row .image{
+    flex: 1 1 32rem;
+  }
+  
+  .about .row .image img{
+    width: 100%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+  }
+  
+  .about .row .content{
+    flex: 1 1 50rem;
+  }
+  
+  .about .row .content h3{
+    font-size: 3.5rem;
+    color: #130f40;
+  }
+  
+  .about .row .content h3 span{
+    color: #ff7800;
+  }
+  
+  .about .row .content p{
+    font-size: 1.6rem;
+    color: #666;
+    padding: 2rem 0;
+    line-height: 2;
+  }
+
+  /* about sesh */ 
+
+
+
+  /*    responsive part add korlam   */ 
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    blog part     */  
+
+.blogs {
+    margin-top: 25px;
+}
+.blogs .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 4rem;
+  }
+  
+  .blogs .box-container .box{
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    border-radius: .5rem;
+  }
+  
+  .blogs .box-container .box img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+  }
+  
+  .blogs .box-container .box .icons{
+    background: #ff7800;
+    border-radius: .5rem;
+    padding: 1rem;
+    position: relative;
+    top: -2rem;
+    display: inline-block;
+  }
+  
+  .blogs .box-container .box .icons a{
+    font-size: 1.4rem;
+    color: #fff;
+    margin: 0 1rem;
+  }
+  
+  .blogs .box-container .box .icons a:hover{
+    color: #130f40;
+  }
+  
+  .blogs .box-container .box .icons a i{
+    color: #130f40;
+    padding-right: .5rem;
+  }
+  
+  .blogs .box-container .box h3{
+    font-size: 2rem;
+    color: #130f40;
+  }
+  
+  .blogs .box-container .box p{
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: #666;
+  }
+  
+
+
+  
+
+
+@media (max-width: 768px) {
+    .blogs .box-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
