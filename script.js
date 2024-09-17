@@ -1,15 +1,15 @@
-let cart = document.querySelector('.shopping-cart');
+// let cart = document.querySelector('.shopping-cart');
 
-document.querySelector('#cart').onclick = () =>{
-  cart.classList.toggle('active');
-  login.classList.remove('active');
-}
+// document.querySelector('#cart').onclick = () =>{
+//   cart.classList.toggle('active');
+//   login.classList.remove('active');
+// }
 
 let login = document.querySelector('.login-form');
 
 document.querySelector('#login').onclick = () =>{
   login.classList.toggle('active');
-  cart.classList.remove('active');
+  // cart.classList.remove('active');
 }
 
 let navbar = document.querySelector('.navbar');
@@ -21,7 +21,7 @@ document.querySelector('#menu').onclick = () =>{
 }
 
 window.onscroll = () =>{
-  cart.classList.remove('active');
+ // cart.classList.remove('active');
   login.classList.remove('active');
   navbar.classList.remove('active');
 }

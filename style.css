@@ -66,7 +66,7 @@ section{
   color: #fff;
 }
 
-/* header */
+/* header part ekhane theke shuru korlam upore ache  */
 
 .header{
   position: fixed;
@@ -230,9 +230,9 @@ section{
   text-align: center;
 }
 
-/* end */
+/* header sesh  */
 
-/* home */
+/* home part shuru korlam  */
 
 .home{
   padding: 0;
@@ -276,12 +276,12 @@ section{
 }
 
 .home .swiper-slide-active{
-  animation: smoothScale 4s linear forwards;
+  animation: smoothScale 4s linear forwards;  /*  4s dhore chalale perect hoy            */ 
 }
 
 @keyframes sliderReveal{
   0%{
-    transform: translateY(30px);
+    transform: translateY(30px);  /*            */
     opacity: 0;
   }
   100%{
@@ -322,9 +322,9 @@ section{
   color: #fff;
 }
 
-/* end */
+/* home part sesh  */
 
-/* banner */
+/* banner  combined kore deya (shuru) */
 
 .banner .box-container{
   display: grid;
@@ -360,9 +360,9 @@ section{
   margin-bottom: 1rem;
 }
 
-/* end */
+/* banner sesh  */
 
-/* steps */
+/* steps shuru korlam  ->  */
 
 .steps .box-container{
   display: flex;
@@ -388,9 +388,9 @@ section{
   padding: 1rem;
 }
 
-/* ends */
+/* steps sesh korlam */
 
-/* pizza menu */
+/* pizza menu shuru korlam   */
 
 .pizzas .box-container{
   display: grid;
@@ -447,7 +447,7 @@ section{
   text-decoration: line-through;
 }
 
-/* end */
+/* pizza menu sesh  */
 
 /* about  edit korchi */
 
@@ -509,9 +509,9 @@ section{
   transform: scale(.9);
 }
 
-/* end */
+/* sesh korlam */
 
-/* menu-preview-container */
+/* menu-preview-container  shuru */
 
 .menu-preview-container{
   background: rgba(0,0,0,0.7);
@@ -578,11 +578,11 @@ section{
   color: #ff7800;
 }
 
-/* end */
+/* sesh */
 
 
 
-/* contact */
+/* contact  shuru */
 
 .contact .icon-container{
   display: grid;
