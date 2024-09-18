@@ -509,9 +509,9 @@ section{
   transform: scale(.9);
 }
 
-/* sesh korlam */
+/* end */
 
-/* menu-preview-container  shuru */
+/* menu-preview-container */
 
 .menu-preview-container{
   background: rgba(0,0,0,0.7);
@@ -578,11 +578,11 @@ section{
   color: #ff7800;
 }
 
-/* sesh */
+/* end */
 
 
 
-/* contact  shuru */
+/* contact */
 
 .contact .icon-container{
   display: grid;

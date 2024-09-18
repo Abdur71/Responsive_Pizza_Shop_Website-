@@ -28,7 +28,7 @@ window.onscroll = () =>{
 
 var swiper = new Swiper(".home-slider", {
   autoplay:{
-    delay:7500,
+    delay:5000,
     disableOnInteraction:false,
   },
   grabCursor:true,
